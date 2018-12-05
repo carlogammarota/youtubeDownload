@@ -80,6 +80,11 @@
                     }
                 ]
             }
+        },
+        methods:{
+            clearVideos: function(){
+                alert("")
+            }
         }
     }
 </script>

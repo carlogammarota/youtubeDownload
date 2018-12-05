@@ -5,16 +5,17 @@
 		<v-container grid-list-md text-xs-center>
 
 			</br>
-			<b-field>
-	            <b-input 
-	            	placeholder="Paste your Youtube link..."
-	            	type="url"
-	                size="is-large"
-	               icon-pack="fas"
-                icon="sync-alt"
-	                >
+			 <b-field position="is-centered"size="is-medium">
+	            <b-input placeholder="https://www.youtube.com/watch?v=o-kdLek1rW4" expanded type="url" icon="download">
 	            </b-input>
+	            <p class="control">
+	                <button class="button is-info">Agree</button>
+	            </p>
 	        </b-field>
+
+
+
+
 	        <div class="block">
 	            <b-radio v-model="radio"
 	                native-value="mp3">
