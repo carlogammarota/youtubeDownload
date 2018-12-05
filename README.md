@@ -1,4 +1,4 @@
-# youtubedownloadervue
+# youtubedownloadervue V1.0
 
 > download youtube videos and convert to mp3
 
